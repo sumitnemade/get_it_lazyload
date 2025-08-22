@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.0.2
+
+* Improved package metadata and documentation
+* Added comprehensive library-level documentation
+* Enhanced pubspec.yaml with keywords and topics for better discoverability
+* Added .gitignore file for better project structure
+* Code formatting improvements
+* Better package organization for pub.dev deployment
+
 ## 0.0.1
 
 * Initial release of get_it_lazyload package

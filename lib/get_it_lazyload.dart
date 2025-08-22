@@ -21,7 +21,7 @@
 ///
 /// // Register a service with automatic lazy loading
 /// final service = getIt.getOrRegister<MyService>(
-///   () => MyService(), 
+///   () => MyService(),
 ///   RegisterAs.singleton
 /// );
 /// ```
@@ -46,7 +46,7 @@
 ///
 ///   static AnonymousAuthUseCase get() {
 ///     return GetIt.instance.getOrRegister<AnonymousAuthUseCase>(
-///         () => AnonymousAuthUseCase(AuthRepository.get()), 
+///         () => AnonymousAuthUseCase(AuthRepository.get()),
 ///         RegisterAs.factory);
 ///   }
 /// }
@@ -63,7 +63,7 @@
 ///
 ///   static AuthRepository get() {
 ///     return GetIt.instance.getOrRegister<AuthRepository>(
-///         () => AuthRepository(DatabaseService.get()), 
+///         () => AuthRepository(DatabaseService.get()),
 ///         RegisterAs.lazySingleton);
 ///   }
 /// }
