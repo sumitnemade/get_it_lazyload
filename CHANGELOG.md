@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.3
+
+* Fixed Flutter analyze issues using @visibleForTesting annotation
+* Improved code formatting and consistency
+* Enhanced test coverage to 100%
+* Better error handling and documentation
+* Optimized package structure for better maintainability
+
 ## 0.0.2
 
 * Improved package metadata and documentation

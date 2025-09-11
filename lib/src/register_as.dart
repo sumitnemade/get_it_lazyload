@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+
 /// Enum to specify the type of dependency registration.
 ///
 /// This enum defines all possible ways to register dependencies with GetIt,
@@ -42,4 +44,9 @@ enum RegisterAs {
   /// shared across all consumers. Good for services that require async
   /// initialization and are expensive to create but cheap to use.
   singletonAsync,
+
+  /// Temporary value for testing the default case.
+  /// This should not be used in production code.
+  @visibleForTesting
+  testUnsupported,
 }

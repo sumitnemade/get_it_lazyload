@@ -239,6 +239,28 @@ void main() {
         expect(getIt.isRegistered<TestService>(), true);
         expect(getIt.isRegistered<AnotherTestService>(), true);
       });
+
+      test(
+        'should throw UnimplementedError for unsupported RegisterAs type',
+        () {
+          // Test the default case in the switch statement using the
+          // testUnsupported enum value marked with @visibleForTesting.
+          // This ensures 100% code coverage.
+          expect(
+            () => getIt.getOrRegister<TestService>(
+              () => TestService('test'),
+              RegisterAs.testUnsupported,
+            ),
+            throwsA(
+              isA<UnimplementedError>().having(
+                (e) => e.message,
+                'message',
+                contains('RegisterAs.testUnsupported is not implemented'),
+              ),
+            ),
+          );
+        },
+      );
     });
   });
 }
