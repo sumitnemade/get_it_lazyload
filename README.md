@@ -2,7 +2,7 @@
 
 [![Pub Version](https://img.shields.io/pub/v/get_it_lazyload)](https://pub.dev/packages/get_it_lazyload)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Test Coverage](https://img.shields.io/badge/coverage-97.22%25-brightgreen)](https://github.com/sumitnemade/get_it_lazyload)
+[![Test Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/sumitnemade/get_it_lazyload)
 
 A Flutter package providing optimized lazy loading extensions for GetIt dependency injection with comprehensive support for all registration types and async dependencies.
 
@@ -13,7 +13,7 @@ A Flutter package providing optimized lazy loading extensions for GetIt dependen
 - **⚡ Async Support**: Full support for asynchronous dependency initialization
 - **🎯 Performance Optimized**: Minimal overhead with smart registration checking
 - **🛡️ Type Safe**: Full type safety with generic methods
-- **🧪 Well Tested**: 97.22% test coverage ensuring reliability
+- **🧪 Well Tested**: 100% test coverage ensuring reliability
 
 ## 📦 Installation
 
@@ -281,7 +281,7 @@ class MyApp {
 
 ## 🧪 Testing
 
-The package includes comprehensive tests with 97.22% coverage:
+The package includes comprehensive tests with 100% coverage:
 
 ```bash
 # Run tests
@@ -313,7 +313,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 Package Health
 
-- ✅ **Test Coverage**: 97.22%
+- ✅ **Test Coverage**: 100%
 - ✅ **Static Analysis**: Passing
 - ✅ **Documentation**: Complete
 - ✅ **Examples**: Included
