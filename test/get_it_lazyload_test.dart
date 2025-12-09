@@ -8,7 +8,6 @@ void main() {
 
     setUp(() {
       getIt = GetIt.instance;
-      getIt.reset();
     });
 
     tearDown(() {
