@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.4
+
+* Updated dependencies
+* Package improvements
+
 ## 0.0.3
 
 * Fixed Flutter analyze issues using @visibleForTesting annotation

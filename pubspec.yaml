@@ -1,6 +1,6 @@
 name: get_it_lazyload
 description: "A Flutter package providing optimized lazy loading extensions for GetIt dependency injection with comprehensive support for all registration types and async dependencies."
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/sumitnemade/get_it_lazyload
 repository: https://github.com/sumitnemade/get_it_lazyload
 issue_tracker: https://github.com/sumitnemade/get_it_lazyload/issues
@@ -29,7 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get_it: ^8.2.0
+  get_it: ^9.2.0
 
 dev_dependencies:
   flutter_test:
