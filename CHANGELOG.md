@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.5
+
+* Updated Flutter SDK constraint to `>=3.22.0` for latest compatibility
+* Upgraded transitive dependencies via `flutter pub upgrade`
+* Enhanced example app dependencies
+* All tests passing with 100% coverage
+
 ## 0.0.4
 
 * Updated dependencies
