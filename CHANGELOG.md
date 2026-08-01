@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.6
+
+* Updated `get_it` dependency to `^9.2.1` (latest stable)
+* Updated transitive dependencies via `flutter pub upgrade`
+* All tests passing with 100% coverage
+* Improved package health and maintenance
+
 ## 0.0.5
 
 * Updated Flutter SDK constraint to `>=3.22.0` for latest compatibility

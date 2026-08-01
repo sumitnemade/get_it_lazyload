@@ -21,8 +21,8 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  get_it_lazyload: ^0.0.5
-  get_it: ^9.2.0
+  get_it_lazyload: ^0.0.6
+  get_it: ^9.2.1
 ```
 
 Then run:
